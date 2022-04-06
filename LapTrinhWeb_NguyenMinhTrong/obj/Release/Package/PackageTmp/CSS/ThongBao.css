@@ -1,0 +1,42 @@
+@charset "utf-8";
+/* CSS Document */
+
+.thongbaothuvien{
+	width:1180px;
+	border: 2px solid #003;
+	
+}
+
+#ndtbthuvien{
+	background-color:#003;
+	border-top-left-radius:2px;
+	border-top-right-radius:2px;
+	text-align:center;
+	font-size:16px;
+	font-weight:bold;
+	color:white;
+	height:25px;
+	padding-top:5px;
+}
+
+.thongbaothuvien>div.ndtbthuvien{
+	font-size:16px;
+	margin-left:20px;
+	margin-top:30px;
+}
+
+#tieudethongbao{
+	font-size:18px;
+	font-weight:bold;
+	color:#F00;
+}
+
+.thongbaothuvien>div.ndtbthuvien>p>a:hover{
+	color:#F00;
+}
+
+.thongbaothuvien>div.ndtbthuvien>p>img{
+	display: block; 
+	margin-left: auto; 
+	margin-right: auto;
+}

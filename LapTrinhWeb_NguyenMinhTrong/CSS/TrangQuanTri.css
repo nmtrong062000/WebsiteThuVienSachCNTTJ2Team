@@ -1,0 +1,58 @@
+﻿.btnView {
+    border: none;
+    outline: none;
+    height: 40px;
+    width: 175px; 
+    background: #003;
+    color: #fff;
+    font-size: 18px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.btnView:hover {
+    background: #009;
+    color: #fff;
+}
+
+.btnView1 {
+    margin-top:10px;  
+    margin-bottom:10px;
+    border: none;
+    outline: none;
+    height: 40px;
+    width: 175px;
+    background: #003;
+    color: #fff;
+    font-size: 14px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.btnView1:hover {
+    background: #009;
+    color: #fff;
+}
+
+.btnView2 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: none;
+    outline: none;
+    height: 40px;
+    width: 175px;
+    background: #003;
+    color: #fff;
+    font-size: 14px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+    .btnView2:hover {
+        background: #009;
+        color: #fff;
+    }
+
+.gvgopy{
+    margin-top:20px;
+}
+

@@ -1,0 +1,28 @@
+@charset "utf-8";
+/* CSS Document */
+
+.lienhe{
+	background:#fff;
+	border:2px solid #003; 
+	padding:10px;
+}
+
+.lienhe>p{
+	background-color:#003;
+	border-top-left-radius:2px;
+	border-top-right-radius:2px;
+	text-align:center;
+	font-size:16px;
+	font-weight:bold;
+	color:white;
+	height:25px;
+	padding-top:5px;
+}
+
+.lienhe>div.thongtinlienhe{
+	font-size:14px;
+	font-weight:bold;
+	margin-left:20px;
+	margin-top:30px;
+}
+

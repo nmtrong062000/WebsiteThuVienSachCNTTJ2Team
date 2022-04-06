@@ -1,0 +1,89 @@
+@charset "utf-8";
+/* CSS Document */
+
+.frmdangky{
+    width: 550px;
+	height:670px;
+    background: #fff;
+    color: #003;
+    top: 100px;
+    left: 500px;
+    position: absolute;
+    box-sizing: border-box;
+    padding: 50px 20px;
+	border:2px solid #003;
+	border-radius: 50px;
+	font-size:14px;
+}
+
+.frmdangky input{
+    width: 100%;
+    margin-bottom: 20px;
+	margin-left:30px;
+}
+
+.frmdangky textarea{
+    width: 100%;
+    margin-bottom: 20px;
+	margin-left:30px;
+}
+
+.frmdangky select{
+	margin-bottom: 20px;
+	margin-left:30px;
+}
+
+table{
+	margin-left:30px;
+}
+
+.date{
+    margin-bottom: 20px;
+	width: 50px;
+	border: none;
+    border-bottom: 1px solid #003;
+    background: #fff;
+    outline: none;
+    height: 40px;
+    color: #000;
+    font-size: 16px;
+}
+
+#nam{
+	width: 50px;
+}
+
+#gioitinh{
+    margin-bottom: 20px;
+	width: 50px;
+}
+
+.frmdangky #nhaplaimatkhau, #matkhau, #hoten, #diachi, #dienthoai, #email, #tendangnhap
+{
+    border: none;
+    border-bottom: 1px solid #003;
+    background: #fff;
+    outline: none;
+    height: 30px;
+    color: #000;
+    font-size: 16px;
+}
+
+.frmdangky #btndangky, #btnreset
+{
+    border: none;
+    outline: none;
+	width:100px;
+    height: 40px;
+    background: #003;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 20px;
+	margin-top:10px;
+}
+.frmdangky #btndangky:hover,#btnreset:hover
+{
+    cursor: pointer;
+    background: #009;
+    color: #fff;
+}

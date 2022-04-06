@@ -1,0 +1,123 @@
+@charset "utf-8";
+/* CSS Document */
+
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+.clr{
+	clear: both;
+}
+
+body{
+	background: url(../Images/anhnen1.png) center top repeat ;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size:11px;
+}
+
+.main {
+	width: 1500px;
+	margin: 0px auto;
+}
+
+.top{
+	width:1500px;
+	height:38px;
+	background: #666;
+}
+
+.tenthuvien{
+	float:left;
+	font-size:16px;
+	font-weight:bold;
+	color:#F00;
+}
+
+.languages{
+	float:right;
+	width:155px;
+	padding-top: 12px;
+}
+
+.languages div{
+	float:left;
+	color: #009;
+	padding: 0 5px 0 0;
+}
+
+.languages a{
+	float:left;
+	display:block;
+	padding: 0 5px;
+}
+
+.dangnhap{
+	float:right;
+	width:150px;
+	padding-top: 10px;
+}
+
+.dangnhap a{
+	float:right;
+	display:block;
+	padding:0 7px;
+	text-decoration:none;
+	font-size:12px;
+	color: #009;
+}
+
+.dangxuat{
+	float:right;
+	width:150px;
+	padding-top: 10px;
+}
+
+.dangxuat a{
+	float:right;
+	display:block;
+	padding:0 7px;
+	text-decoration:none;
+	font-size:12px;
+	color: #009;
+}
+
+.timkiem{
+	width: 320px;
+	height: 37px;
+	float:right;
+	background:#CCC;
+	border-bottom-left-radius:5px;
+	border-bottom-right-radius:5px;
+}
+
+.timkiem .timkiem_text{
+	float:left;
+	width:70px;
+	color: #999999;
+	padding:10px 0 0 15px;
+}
+
+.timkiem .timkiem_text a{
+	color: #009;
+	text-decoration:none;
+}
+
+.timkiem .timkiem_input{
+	width:182px;
+	height:18px;
+	margin-top:8px;
+	border: 1px solid #dbdbdb;
+	float:left;
+	border-bottom-color: #ffffff;
+	border-right-color:#ffffff;
+}
+
+.timkiem .timkiem_bt{
+	width:24px;
+	height:24px;
+	float:left;
+	padding:6px 0 0 15px;
+}
+
+

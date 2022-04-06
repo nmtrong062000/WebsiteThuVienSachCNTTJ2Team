@@ -1,0 +1,45 @@
+﻿@charset "utf-8";
+/* CSS Document */
+
+.thongbaothuvien{
+	width:75%;
+    margin-left:25%;
+	
+}
+
+#ndtbthuvien {
+    background-color: #6699FF;
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    height: 25px;
+    padding-top: 5px;
+}
+
+.thongbaothuvien>div.ndtbthuvien{
+	font-size:16px;
+	margin-left:20px;
+	margin-top:30px;
+}
+
+#tieudethongbao{
+	font-size:18px;
+	font-weight:bold;
+	color:#F00;
+}
+
+.thongbaothuvien>div.ndtbthuvien>p>a:hover{
+	color:#F00;
+}
+
+.thongbaothuvien>div.ndtbthuvien>p>img{
+	display: block; 
+	margin-left: auto; 
+	margin-right: auto;
+}
+
+.timkiem{
+    margin-top:45px;
+    margin-bottom:20px;
+}

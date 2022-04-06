@@ -1,0 +1,59 @@
+﻿@charset "utf-8";
+/* CSS Document */
+
+.frmdangky {
+    width: 30%;
+    height:90%;
+    background: #fff;
+    color: #003;
+    top: 7%;
+    left: 150px;
+    position: absolute;
+    box-sizing: border-box;
+    padding-top: 120px;
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.5);
+}
+
+.logodangnhap1 {
+    width: 170px;
+    height: 100px;
+    position: absolute;
+    top: 2%;
+    left: 35%;
+}
+
+.txtdangky{
+    width:50%;
+    margin-top:1%;
+    margin-bottom:1%;
+}
+
+.tbldangky{
+    margin-left:15%;
+}
+
+#lbThongBaoLoi {
+    font-size: 16px;
+    margin-top:50%;
+}
+
+.frmdangky #btnDangKy {
+    border: none;
+    outline: none;
+    width: 100px;
+    height: 40px;
+    background: #003;
+    color: #fff;
+    font-size: 18px;
+    margin-top: 10px;
+}
+.frmdangky #btnDangKy:hover
+{
+    cursor: pointer;
+    background: #009;
+    color: #fff;
+}
+
+.btndangky{
+    margin-left:40%;
+}

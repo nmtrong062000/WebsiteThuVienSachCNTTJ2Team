@@ -1,0 +1,81 @@
+﻿@charset "utf-8";
+/* CSS Document */
+
+article{display:table-row;}
+
+aside#left{
+	width:300px;
+	display:table-cell;
+	vertical-align:top;
+	float:left;
+	border: 3px solid #003;
+	border-radius: 2px;
+}
+
+/*Khung, bo goc cho khoi div*/
+aside#left>div{
+	border:2px solid #003;
+	border-radius:5px;
+	margin-bottom:30px;
+}
+
+aside#left>div>div{
+	margin:20px;
+}
+
+aside#left>div>marquee>div{
+	margin:20px;
+}
+/*mau nen, bo hai goc, canh le, co chu, mau chu,...*/
+aside#left>div>p{
+	background-color:#003;
+	border-top-left-radius:2px;
+	border-top-right-radius:2px;
+	text-align:center;
+	font-size:16px;
+	font-weight:bold;
+	color:#fff;
+	height:25px;
+	padding-top:5px;
+}
+
+aside#left .taikhoan #TenTK{
+    font-size:12pt;
+    color:#003;
+}
+
+aside#left .taikhoan div a{
+	font-size:14px;
+	font-weight:bold;
+}
+
+aside#left .thongbao div a{
+	font-size:16px;
+	font-weight:bold;
+}
+
+aside#left .thongketruycap div p{
+	font-size:16px;
+	font-weight:bold;
+}
+
+aside#left>div.thongbao p{
+	clear:both;
+}
+
+aside#left>div.thongbao img{
+	width:50px;
+	height:40px;
+	margin-top:5px;
+}
+
+aside#left>div.thongbao a{
+	text-decoration:none;
+	font-size:14px;
+	font-family:Arial;
+	color:#003;
+}
+
+aside#left div.thongbao a:hover{
+	font-weight:bold;
+}

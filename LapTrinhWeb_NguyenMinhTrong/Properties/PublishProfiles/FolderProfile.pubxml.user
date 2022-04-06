@@ -1,0 +1,508 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <_PublishTargetUrl>C:\Users\ASUS\Desktop\test</_PublishTargetUrl>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="bin/LapTrinhWeb_NguyenMinhTrong.dll">
+      <publishTime>10/12/2020 16:08:53</publishTime>
+    </File>
+    <File Include="bin/LapTrinhWeb_NguyenMinhTrong.pdb">
+      <publishTime>10/12/2020 16:08:53</publishTime>
+    </File>
+    <File Include="bin/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll">
+      <publishTime>05/24/2018 13:38:22</publishTime>
+    </File>
+    <File Include="bin/roslyn/csc.exe">
+      <publishTime>05/24/2018 13:38:22</publishTime>
+    </File>
+    <File Include="bin/roslyn/csc.exe.config">
+      <publishTime>05/24/2018 13:38:22</publishTime>
+    </File>
+    <File Include="bin/roslyn/csc.rsp">
+      <publishTime>05/24/2018 13:38:22</publishTime>
+    </File>
+    <File Include="bin/roslyn/csi.exe">
+      <publishTime>05/24/2018 13:38:22</publishTime>
+    </File>
+    <File Include="bin/roslyn/csi.exe.config">
+      <publishTime>05/24/2018 13:38:22</publishTime>
+    </File>
+    <File Include="bin/roslyn/csi.rsp">
+      <publishTime>05/24/2018 13:38:22</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.Build.Tasks.CodeAnalysis.dll">
+      <publishTime>05/24/2018 13:38:22</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.CSharp.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.CSharp.Scripting.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.Scripting.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.VisualBasic.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CSharp.Core.targets">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.DiaSymReader.Native.amd64.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.DiaSymReader.Native.x86.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.Managed.Core.targets">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.VisualBasic.Core.targets">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.AppContext.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Collections.Immutable.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Console.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Diagnostics.FileVersionInfo.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Diagnostics.StackTrace.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.IO.Compression.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.IO.FileSystem.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.IO.FileSystem.Primitives.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.IO.Pipes.AccessControl.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.IO.Pipes.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Reflection.Metadata.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Security.AccessControl.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Security.Claims.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Security.Cryptography.Algorithms.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Security.Cryptography.Encoding.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Security.Cryptography.Primitives.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Security.Cryptography.X509Certificates.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Security.Principal.Windows.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Text.Encoding.CodePages.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.ValueTuple.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Xml.ReaderWriter.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Xml.XmlDocument.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Xml.XPath.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Xml.XPath.XDocument.dll">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/vbc.exe">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/vbc.exe.config">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/vbc.rsp">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/VBCSCompiler.exe">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/VBCSCompiler.exe.config">
+      <publishTime>05/24/2018 13:38:24</publishTime>
+    </File>
+    <File Include="ChiTietSachAutoCad.aspx">
+      <publishTime>10/12/2020 15:46:33</publishTime>
+    </File>
+    <File Include="ChiTietSachC.aspx">
+      <publishTime>10/12/2020 15:47:05</publishTime>
+    </File>
+    <File Include="ChiTietSachCSharp.aspx">
+      <publishTime>10/12/2020 15:47:43</publishTime>
+    </File>
+    <File Include="ChiTietSachCSS_HTML.aspx">
+      <publishTime>10/12/2020 15:48:20</publishTime>
+    </File>
+    <File Include="ChiTietSachDreamweaver.aspx">
+      <publishTime>10/12/2020 15:48:58</publishTime>
+    </File>
+    <File Include="ChiTietSachHTML5_CSS3.aspx">
+      <publishTime>10/12/2020 15:49:35</publishTime>
+    </File>
+    <File Include="ChiTietSachJava.aspx">
+      <publishTime>10/12/2020 15:50:16</publishTime>
+    </File>
+    <File Include="ChiTietSachPHP_MySQL.aspx">
+      <publishTime>10/12/2020 15:50:52</publishTime>
+    </File>
+    <File Include="ChiTietSachPSCS6.aspx">
+      <publishTime>10/12/2020 15:45:22</publishTime>
+    </File>
+    <File Include="ChiTietSachTKW.aspx">
+      <publishTime>10/12/2020 15:51:26</publishTime>
+    </File>
+    <File Include="CSS/ChiTietSach.css">
+      <publishTime>10/12/2020 15:41:38</publishTime>
+    </File>
+    <File Include="CSS/DangKy.css">
+      <publishTime>10/12/2020 15:41:38</publishTime>
+    </File>
+    <File Include="CSS/DangNhap.css">
+      <publishTime>10/12/2020 15:41:38</publishTime>
+    </File>
+    <File Include="CSS/Footer.css">
+      <publishTime>10/12/2020 15:41:38</publishTime>
+    </File>
+    <File Include="CSS/GopY.css">
+      <publishTime>10/12/2020 15:41:38</publishTime>
+    </File>
+    <File Include="CSS/Header.css">
+      <publishTime>10/12/2020 15:41:38</publishTime>
+    </File>
+    <File Include="CSS/Left.css">
+      <publishTime>10/12/2020 15:41:38</publishTime>
+    </File>
+    <File Include="CSS/LienHe.css">
+      <publishTime>10/12/2020 15:41:38</publishTime>
+    </File>
+    <File Include="CSS/Nav.css">
+      <publishTime>10/12/2020 15:41:38</publishTime>
+    </File>
+    <File Include="CSS/pngtree-dark-brown-wood-grain-wooden-background-brownwood-graintexturead-image_73002.jpg">
+      <publishTime>10/12/2020 15:41:38</publishTime>
+    </File>
+    <File Include="CSS/QuyDinhChung.css">
+      <publishTime>10/12/2020 15:41:38</publishTime>
+    </File>
+    <File Include="CSS/Section.css">
+      <publishTime>10/12/2020 15:41:38</publishTime>
+    </File>
+    <File Include="CSS/ThongBao.css">
+      <publishTime>10/12/2020 15:41:38</publishTime>
+    </File>
+    <File Include="CSS/TopSauDN.css">
+      <publishTime>10/12/2020 15:41:38</publishTime>
+    </File>
+    <File Include="DangKy.aspx">
+      <publishTime>10/12/2020 15:53:50</publishTime>
+    </File>
+    <File Include="DangNhap.aspx">
+      <publishTime>10/12/2020 15:43:22</publishTime>
+    </File>
+    <File Include="Default.aspx">
+      <publishTime>10/12/2020 15:41:29</publishTime>
+    </File>
+    <File Include="DoHoa.aspx">
+      <publishTime>10/12/2020 15:54:17</publishTime>
+    </File>
+    <File Include="GioiThieu.aspx">
+      <publishTime>10/12/2020 15:54:56</publishTime>
+    </File>
+    <File Include="GopY.aspx">
+      <publishTime>10/12/2020 15:55:25</publishTime>
+    </File>
+    <File Include="Images/14498067661530099611-128.png">
+      <publishTime>10/12/2020 15:41:43</publishTime>
+    </File>
+    <File Include="Images/19516023631594941306-128.png">
+      <publishTime>10/12/2020 15:41:43</publishTime>
+    </File>
+    <File Include="Images/2150335821535007646-128.png">
+      <publishTime>10/12/2020 15:41:43</publishTime>
+    </File>
+    <File Include="Images/72132328_460513477894613_2408055757615398912_n.jpg">
+      <publishTime>10/12/2020 15:41:43</publishTime>
+    </File>
+    <File Include="Images/90069394_3150643211621425_6669967529311469568_n.jpg">
+      <publishTime>10/12/2020 15:41:43</publishTime>
+    </File>
+    <File Include="Images/94128516_3226853764000369_8178940796259532800_n.jpg">
+      <publishTime>10/12/2020 15:41:43</publishTime>
+    </File>
+    <File Include="Images/9478791231582004484-128.png">
+      <publishTime>10/12/2020 15:41:43</publishTime>
+    </File>
+    <File Include="Images/anhnen1.png">
+      <publishTime>10/12/2020 15:41:43</publishTime>
+    </File>
+    <File Include="Images/anhnenheader2.jpg">
+      <publishTime>10/12/2020 15:41:43</publishTime>
+    </File>
+    <File Include="Images/cachtruyenthongvevanhoadoc1copy_20190418164131.jpg">
+      <publishTime>10/12/2020 15:41:43</publishTime>
+    </File>
+    <File Include="Images/closed.png">
+      <publishTime>10/12/2020 15:41:43</publishTime>
+    </File>
+    <File Include="Images/covid.jpg">
+      <publishTime>10/12/2020 15:41:43</publishTime>
+    </File>
+    <File Include="Images/deathclick.png">
+      <publishTime>10/12/2020 15:41:43</publishTime>
+    </File>
+    <File Include="Images/dowload-button.png">
+      <publishTime>10/12/2020 15:41:43</publishTime>
+    </File>
+    <File Include="Images/Downloads-icon.png">
+      <publishTime>10/12/2020 15:41:43</publishTime>
+    </File>
+    <File Include="Images/j2.png">
+      <publishTime>10/12/2020 15:41:43</publishTime>
+    </File>
+    <File Include="Images/khungtimkiem.png">
+      <publishTime>10/12/2020 15:41:43</publishTime>
+    </File>
+    <File Include="Images/LOGO.png">
+      <publishTime>10/12/2020 15:41:43</publishTime>
+    </File>
+    <File Include="Images/nenheader.jpg">
+      <publishTime>10/12/2020 15:41:43</publishTime>
+    </File>
+    <File Include="Images/nenHeader.png">
+      <publishTime>10/12/2020 15:41:43</publishTime>
+    </File>
+    <File Include="Images/nenheader1.jpg">
+      <publishTime>10/12/2020 15:41:43</publishTime>
+    </File>
+    <File Include="Images/ngac-nhien-trong-tieng-anh.jpg">
+      <publishTime>10/12/2020 15:41:43</publishTime>
+    </File>
+    <File Include="Images/pngtree-dark-brown-wood-grain-wooden-background-brownwood-graintexturead-image_73002.jpg">
+      <publishTime>10/12/2020 15:41:43</publishTime>
+    </File>
+    <File Include="Images/poeta44copy_20190418163908.jpg">
+      <publishTime>10/12/2020 15:41:43</publishTime>
+    </File>
+    <File Include="Images/sach-quan-tri-tai-chinh-1.jpg">
+      <publishTime>10/12/2020 15:41:44</publishTime>
+    </File>
+    <File Include="Images/Sach/AI.jpg">
+      <publishTime>10/12/2020 15:41:43</publishTime>
+    </File>
+    <File Include="Images/Sach/autocad.png">
+      <publishTime>10/12/2020 15:41:43</publishTime>
+    </File>
+    <File Include="Images/Sach/bia-tri-tue-nhan-tao-trong-marketing_96239e39321444559be9c6f154c53668.jpg">
+      <publishTime>10/12/2020 15:41:43</publishTime>
+    </File>
+    <File Include="Images/Sach/blockchain.jpg">
+      <publishTime>10/12/2020 15:41:43</publishTime>
+    </File>
+    <File Include="Images/Sach/bong-ma.jpg">
+      <publishTime>10/12/2020 15:41:43</publishTime>
+    </File>
+    <File Include="Images/Sach/codedaokysu.jpg">
+      <publishTime>10/12/2020 15:41:43</publishTime>
+    </File>
+    <File Include="Images/Sach/excel.gif">
+      <publishTime>10/12/2020 15:41:43</publishTime>
+    </File>
+    <File Include="Images/Sach/giandiepmang.jpg">
+      <publishTime>10/12/2020 15:41:43</publishTime>
+    </File>
+    <File Include="Images/Sach/giao-trinh-mang-may-tinh-ho-dac-phuong.pdf-0.jpg">
+      <publishTime>10/12/2020 15:41:43</publishTime>
+    </File>
+    <File Include="Images/Sach/giao-trinh-mang-may-tinh-tong-hop-ebook.jpg">
+      <publishTime>10/12/2020 15:41:43</publishTime>
+    </File>
+    <File Include="Images/Sach/hd_thiet_ke_web_1.jpg">
+      <publishTime>10/12/2020 15:41:43</publishTime>
+    </File>
+    <File Include="Images/Sach/html5-va-css3-198x300.jpg">
+      <publishTime>10/12/2020 15:41:43</publishTime>
+    </File>
+    <File Include="Images/Sach/html_css.jpg">
+      <publishTime>10/12/2020 15:41:43</publishTime>
+    </File>
+    <File Include="Images/Sach/lap-trinh-c-shard-tu-co-ban-den-nang-cao-pdf.jpg">
+      <publishTime>10/12/2020 15:41:43</publishTime>
+    </File>
+    <File Include="Images/Sach/lap-trinh-co-ban-php-va-mysql.png">
+      <publishTime>10/12/2020 15:41:43</publishTime>
+    </File>
+    <File Include="Images/Sach/laptrinhvacuocsong.jpg">
+      <publishTime>10/12/2020 15:41:43</publishTime>
+    </File>
+    <File Include="Images/Sach/ngonnguC.jpg">
+      <publishTime>10/12/2020 15:41:43</publishTime>
+    </File>
+    <File Include="Images/Sach/ngonngujava.jpg">
+      <publishTime>10/12/2020 15:41:44</publishTime>
+    </File>
+    <File Include="Images/Sach/PSCS6.jpg">
+      <publishTime>10/12/2020 15:41:44</publishTime>
+    </File>
+    <File Include="Images/Sach/QTmang.jpg">
+      <publishTime>10/12/2020 15:41:44</publishTime>
+    </File>
+    <File Include="Images/Sach/sach-ai-trong-cuoc-cach-amng-187x300.png">
+      <publishTime>10/12/2020 15:41:44</publishTime>
+    </File>
+    <File Include="Images/Sach/thiet-ke-web-voi-dreamweaver-209x300.jpg">
+      <publishTime>10/12/2020 15:41:44</publishTime>
+    </File>
+    <File Include="Images/Sach/tinhocvanphong.jpg">
+      <publishTime>10/12/2020 15:41:44</publishTime>
+    </File>
+    <File Include="Images/Sach/word.jpg">
+      <publishTime>10/12/2020 15:41:44</publishTime>
+    </File>
+    <File Include="Images/Screenshot %28120%29.png">
+      <publishTime>10/12/2020 15:41:44</publishTime>
+    </File>
+    <File Include="Images/search.png">
+      <publishTime>10/12/2020 15:41:44</publishTime>
+    </File>
+    <File Include="Images/Springer 1.png">
+      <publishTime>10/12/2020 15:41:44</publishTime>
+    </File>
+    <File Include="Images/Springer 5.png">
+      <publishTime>10/12/2020 15:41:44</publishTime>
+    </File>
+    <File Include="Images/teal-training-slider.png">
+      <publishTime>10/12/2020 15:41:44</publishTime>
+    </File>
+    <File Include="Images/ThuVien/hinh-19.jpg">
+      <publishTime>10/12/2020 15:41:44</publishTime>
+    </File>
+    <File Include="Images/ThuVien/hinh-21.jpg">
+      <publishTime>10/12/2020 15:41:44</publishTime>
+    </File>
+    <File Include="Images/ThuVien/hinh-22.jpg">
+      <publishTime>10/12/2020 15:41:44</publishTime>
+    </File>
+    <File Include="Images/ThuVien/hoatran-img8128-15379796123021454685583.jpg">
+      <publishTime>10/12/2020 15:41:44</publishTime>
+    </File>
+    <File Include="Images/ThuVien/images.jpg">
+      <publishTime>10/12/2020 15:41:44</publishTime>
+    </File>
+    <File Include="Images/ThuVien/top-truong-dai-hoc-co-thu-vien-dep-nhat-696x415.jpg">
+      <publishTime>10/12/2020 15:41:44</publishTime>
+    </File>
+    <File Include="Images/ThuVien/unnamed %281%29.jpg">
+      <publishTime>10/12/2020 15:41:44</publishTime>
+    </File>
+    <File Include="Images/ThuVien/unnamed.jpg">
+      <publishTime>10/12/2020 15:41:44</publishTime>
+    </File>
+    <File Include="Images/timkiem1.jpg">
+      <publishTime>10/12/2020 15:41:44</publishTime>
+    </File>
+    <File Include="Images/top_thuvien.png">
+      <publishTime>10/12/2020 15:41:44</publishTime>
+    </File>
+    <File Include="Images/united-states.png">
+      <publishTime>10/12/2020 15:41:44</publishTime>
+    </File>
+    <File Include="Images/vietnam.png">
+      <publishTime>10/12/2020 15:41:44</publishTime>
+    </File>
+    <File Include="JAVASCRIPT/KiemTraDangKy.js">
+      <publishTime>10/12/2020 15:41:48</publishTime>
+    </File>
+    <File Include="JAVASCRIPT/KiemTraDangNhap.js">
+      <publishTime>10/12/2020 15:41:48</publishTime>
+    </File>
+    <File Include="JAVASCRIPT/KiemTraGopY.js">
+      <publishTime>10/12/2020 15:41:48</publishTime>
+    </File>
+    <File Include="JAVASCRIPT/Tabs.js">
+      <publishTime>10/12/2020 15:41:48</publishTime>
+    </File>
+    <File Include="Khac.aspx">
+      <publishTime>10/12/2020 15:55:52</publishTime>
+    </File>
+    <File Include="LienHe.aspx">
+      <publishTime>10/12/2020 15:56:36</publishTime>
+    </File>
+    <File Include="NgonNguLapTrinh.aspx">
+      <publishTime>10/12/2020 15:57:05</publishTime>
+    </File>
+    <File Include="QuanTriMang.aspx">
+      <publishTime>10/12/2020 15:57:30</publishTime>
+    </File>
+    <File Include="QuyDinhChung.aspx">
+      <publishTime>10/12/2020 15:57:57</publishTime>
+    </File>
+    <File Include="ThietKeWeb.aspx">
+      <publishTime>10/12/2020 15:53:11</publishTime>
+    </File>
+    <File Include="ThongBaoNghiTet.aspx">
+      <publishTime>10/12/2020 15:59:47</publishTime>
+    </File>
+    <File Include="ThongBaoTangTienPhat.aspx">
+      <publishTime>10/12/2020 16:00:24</publishTime>
+    </File>
+    <File Include="ThongBaoTapHuan.aspx">
+      <publishTime>10/12/2020 16:00:49</publishTime>
+    </File>
+    <File Include="TinHoc_VanPhong.aspx">
+      <publishTime>10/12/2020 16:01:14</publishTime>
+    </File>
+    <File Include="TinTuc.aspx">
+      <publishTime>10/12/2020 16:01:40</publishTime>
+    </File>
+    <File Include="TinTuc10ViecGietThoiGian.aspx">
+      <publishTime>10/12/2020 16:02:11</publishTime>
+    </File>
+    <File Include="TinTucHoiSachTrucTuyen.aspx">
+      <publishTime>10/12/2020 16:02:38</publishTime>
+    </File>
+    <File Include="TinTucNgaySachVaBanQuyen.aspx">
+      <publishTime>10/12/2020 16:03:03</publishTime>
+    </File>
+    <File Include="TinTucSpringer.aspx">
+      <publishTime>10/12/2020 15:59:17</publishTime>
+    </File>
+    <File Include="Web.config">
+      <publishTime>10/12/2020 16:08:54</publishTime>
+    </File>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,208 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="MasterPage1.master.cs" Inherits="LapTrinhWeb_NguyenMinhTrong.MasterPage1" %>
+
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title></title>
+    <link href="CSS/ChiTietSach.css" rel="stylesheet" />
+    <link href="DangKy.aspx" rel="stylesheet" />
+    <link href="CSS/DangNhap.css" rel="stylesheet" />
+    <link href="CSS/Footer.css" rel="stylesheet" />
+    <link href="CSS/GopY.css" rel="stylesheet" />
+    <link href="CSS/Header1.css" rel="stylesheet" />
+    <link href="CSS/Left.css" rel="stylesheet" />
+    <link href="CSS/LienHe.css" rel="stylesheet" />
+    <link href="CSS/QuyDinhChung.css" rel="stylesheet" />
+    <link href="CSS/Section.css" rel="stylesheet" />
+    <link href="CSS/Slide.css" rel="stylesheet" />
+    <link href="CSS/ThongBao.css" rel="stylesheet" />
+    <link href="CSS/ThongBaoTinTuc.css" rel="stylesheet" />
+    <link href="CSS/ThongTinTaiKhoan.css" rel="stylesheet" />
+    <link href="CSS/TrangQuanTri.css" rel="stylesheet" />
+</head>
+<body>
+    <form runat="server">
+     <div class="main">
+    <!--phan tren cung cua website-->
+	<section class="header">
+    	<!--khu vuc cac chua link dieu huong-->
+    <nav id="menu_fix">
+   	  <div class="menu">
+      		<div class="menu_right">
+                <div class="dropdown">
+                    <a id="aTaiKhoan" runat="server"><img class="img-header-right" alt="Tài Khoản" src="Images/user.png"/>TÀI KHOẢN</a>
+                    <asp:Label ID="lbTenTK" runat="server" Text=""></asp:Label>
+                    <div class="dropdown-content">
+                        <a id="aDangNhap" runat="server" href="DangNhap.aspx">Đăng Nhập</a>
+                        <a id="aDangKy" runat="server" href="DangKy.aspx">Đăng Ký</a>
+                        <a id="aTTTKDG" runat="server" href="ThongTinDG.aspx" >Thông Tin Tài Khoản</a>
+                        <a id="aTTTKAD" runat="server" href="ThongTinAD.aspx">Thông Tin Tài Khoản</a>
+                        <a id="aQuanTri" runat="server" href="TrangQuanTri.aspx">Trang Quản Trị</a>
+                        <asp:Button ID="btDangXuat" runat="server" Text="Đăng Xuất" OnClick="btDangXuat_Click1"/>
+                    </div>
+                </div>
+            	<div class="dropdown">
+                    <img class="img-header-right" alt="Tìm Kiếm" src="Images/search.png"/>
+                    <asp:Button ID="btTimKiemO" CssClass="btTimKiem" runat="server" Text="TÌM KIẾM" OnClick="btTimKiemO_Click"/>
+                    <asp:Button ID="btTimKiemC" CssClass="btTimKiem" runat="server" Text="TÌM KIẾM" OnClick="btTimKiemC_Click"/>
+                </div>
+                <div class="dropdown">
+                   <img class="img-header-right" alt="Giờ Hoạt Động" src="Images/alarm-clock.png"/>
+                    <asp:Button ID="btGioO" CssClass="btTimKiem" runat="server" Text="GIỜ" OnClick="btGioO_Click" />
+                    <asp:Button ID="btGioC" CssClass="btTimKiem" runat="server" Text="GIỜ" OnClick="btGioC_Click" />
+                </div>
+                
+            </div>
+        	<div class="main_menu">
+            	<a href="default.aspx" title="Trang Chủ Thư Viện J2Team"><img alt="Trang Chủ Thư Viện J2Team" height="97" width="197" src="Images/LoGo.png" /></a>
+                <a id="gt" href="GioiThieu.aspx">GIỚI THIỆU</a>
+                <div class="dropdown">
+                    <a class="dropbtn">TÀI LIỆU</a>
+                    <div class="dropdown-content">
+                        <a href="NgonNguLapTrinh.aspx">Ngôn Ngữ Lập Trình</a>
+                        <a href="ThietKeWeb.aspx">Thiết Kế Web</a>
+                        <a href="DoHoa.aspx">Đồ Hoạ</a>
+                        <a href="TinHoc_VanPhong.aspx">Tin Học - Văn Phòng</a>
+                        <a href="QuanTriMang.aspx">Quản Trị Mạng</a>
+                        <a href="BaoMat.aspx">Bảo Mật</a>
+                        <a href="Khac.aspx">Khác</a>
+                    </div>
+                </div>
+                <a href="GopY.aspx">GÓP Ý</a>
+            </div>
+        </div>
+	</nav>
+        
+    </section>
+    
+    <div class="slideshow-container">  
+        <div runat="server" id="timkiem"  style="margin: 0 auto; text-align: center; height: 50px; margin-top: 20px;">
+        <div class="wrap_search">
+             <asp:TextBox ID="txttimkiem" CssClass="txt_search" placeholder="Nhập sách cần tìm..." runat="server"></asp:TextBox>
+             <asp:Button ID="btTimKiem1" CssClass="btn_search" runat="server" Text="Tìm Kiếm" OnClick="btTimKiem1_Click" />
+             <asp:Button ID="btnHuy" CssClass="btn_huy" runat="server" Text="Huỷ" OnClick="btnHuy_Click"  />
+         </div>
+        </div>
+        <div runat="server" id="Gio"  style="margin: 0 auto; height: 150px; margin-top: 20px;">
+            <p style="font-size: 25px; text-align: center; font-family:  'Roboto Mono', monospace; margin-top: 10px;">GIỜ HOẠT ĐỘNG THƯ VIỆN J2TEAM</p>
+            <table style="margin: 0 auto; text-align:center;">
+                <tr>
+                    <td >
+                        Thời Gian
+                    </td>
+                    <td class="pdgio">
+                        Giờ mở cửa
+                    </td>
+                    <td class="pdgio">
+                        Giờ đóng cửa
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Thứ 2 - Thứ 6
+                    </td>
+                    <td class="pdgio">
+                        8:00 AM
+                    </td>
+                    <td class="pdgio">
+                        10:00 PM
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Thứ 7 - Chủ Nhật
+                    </td>
+                    <td class="pdgio">
+                        8:00 AM
+                    </td>
+                    <td class="pdgio">
+                        6:00 PM
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="3">
+                    ***Các ngày lễ thư viện tạm ngừng hoạt động***
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <div class="mySlides fade">
+          <img class="img-sl" src="Images/book-3692571_1920.jpg" style="width:100%;height: 700px;">
+        </div>
+        
+        <div class="mySlides fade">
+          <img class="img-sl" src="Images/books-3454401_1920.jpg" style="width:100%;height: 700px;">
+        </div>
+        
+        <div class="mySlides fade">
+          <img class="img-sl" src="Images/books-3526238_1920.jpg" style="width:100%;height: 700px;">
+        </div>
+        
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        </div> 
+        <div class="dotext" style="text-align:center">
+          <span class="dot" onclick="currentSlide(1)"></span> 
+          <span class="dot" onclick="currentSlide(2)"></span> 
+          <span class="dot" onclick="currentSlide(3)"></span> 
+        </div>
+    <div class="content">
+        <article>
+        	<section style="margin-top:45px;">
+            	<asp:ContentPlaceHolder id="ContentPlaceHolder2" runat="server">
+                </asp:ContentPlaceHolder>
+        	</section>
+            </article>
+        </div>
+         
+             <!-- FOOTER : START -->
+            <div class="footer">
+    	<div><p>THƯ VIỆN SÁCH CÔNG NGHÊ THÔNG TIN J2TEAM</p></div>
+		<p>Địa chỉ: 340/20, phường Phú Hoà, Tp. Thủ Dầu Một, Bình Dương
+			<br>Email: <a href="mailto:J2TEAMLIBRARY@GMAIL.COM"> J2TEAMLIBRARY@GMAIL.COM</a>
+			<br>Số Điện Thoại: 0989919899
+			<br>Fax: 0909911989
+			<br>Facebook: <a href="https://www.facebook.com/groups/j2team.community"> https://www.facebook.com/groups/j2team.community </a>
+		</p>
+    </div>
+            <!-- FOOTER : END -->
+   </div>
+    <script>
+        var slideIndex;
+    // KHai bào hàm hiển thị slide
+function showSlides() {
+	var i;
+	var slides = document.getElementsByClassName("mySlides");
+	var dots = document.getElementsByClassName("dot");
+    for (i = 0; i < slides.length; i++) {
+    	slides[i].style.display = "none";
+    }
+    for (i = 0; i < dots.length; i++) {
+    	dots[i].className = dots[i].className.replace(" active", "");
+    }
+
+    slides[slideIndex].style.display = "block";
+    dots[slideIndex].className += " active";
+    //chuyển đến slide tiếp theo
+    slideIndex++;
+    //nếu đang ở slide cuối cùng thì chuyển về slide đầu
+      if (slideIndex > slides.length - 1) {
+        slideIndex = 0
+    }
+    //tự động chuyển đổi slide sau 5s
+    setTimeout(showSlides, 5000);
+}
+//mặc định hiển thị slide đầu tiên
+showSlides(slideIndex = 0);
+
+
+  function currentSlide(n) {
+        showSlides(slideIndex = n);
+    }
+    </script>
+        
+        </form>
+</body>
+</html>

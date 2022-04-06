@@ -1,0 +1,37 @@
+@charset "utf-8";
+/* CSS Document */
+
+#cttensach{
+	background-color:#003;
+	border-top-left-radius:2px;
+	border-top-right-radius:2px;
+	text-align:center;
+	font-size:16px;
+	font-weight:bold;
+	color:white;
+	height:25px;
+	padding-top:5px;
+	text-transform:uppercase;
+}
+
+.chitietsach table{
+	background:url(../Images/pngtree-dark-brown-wood-grain-wooden-background-brownwood-graintexturead-image_73002.jpg);
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:10px;
+	font-size:16px;
+	width:600px;
+	color:#fff;
+}
+
+.chitietsach table tr td{
+	width:300px;
+}
+
+.noidungsach{
+	margin-left:25px;
+}
+
+
+

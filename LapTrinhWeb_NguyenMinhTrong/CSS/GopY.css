@@ -1,0 +1,70 @@
+﻿@charset "utf-8";
+/* CSS Document */
+
+.frmgopy {
+    background: #fff;
+    color: #003;
+    top: 130px;
+    left: 270px;
+    position: absolute;
+    box-sizing: border-box;
+    padding-top: 120px;
+    padding-left:20px;
+    font-size: 16px;
+    height: 520px;
+    width: 330px;
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.5);
+}
+
+.logodangnhap2 {
+    width: 170px;
+    height: 100px;
+    position: absolute;
+    top: 10px;
+    left: 90px;
+}
+
+#noidung, #hoten, #email {
+    border: none;
+    border-bottom: 1px solid #003;
+    background: #fff;
+    outline: none;
+    color: #000;
+    font-size: 16px;
+    padding-top:5px;
+}
+
+.frmgopy #btngui
+{
+    border: none;
+    outline: none;
+	width:100px;
+    height: 40px;
+    background: #003;
+    color: #fff;
+    font-size: 18px;
+	margin-top:10px;
+}
+.frmgopy #btngui:hover{
+	cursor: pointer;
+    background: #009;
+    color: #fff;
+}
+
+.frmgopy #btnreset {
+    border: none;
+    outline: none;
+    width: 100px;
+    height: 40px;
+    background: #003;
+    color: #fff;
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+    .frmgopy #btnreset:hover {
+        cursor: pointer;
+        background: #009;
+        color: #fff;
+    }
+

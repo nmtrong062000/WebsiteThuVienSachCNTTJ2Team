@@ -1,0 +1,90 @@
+﻿@charset "utf-8";
+/* CSS Document */
+.frmdangnhap {
+    background: #fff;
+    color: #003;
+    top: 130px;
+    left: 270px;
+    position: absolute;
+    box-sizing: border-box;
+    padding: 120px 20px;
+    font-size: 16px;
+    height: 520px;
+    width: 330px;
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.5);
+}
+
+.logodangnhap{
+    width: 170px;
+    height: 100px;
+    position: absolute;
+    top: 10px;
+    left:90px;
+}
+
+h1{
+    margin: 0;
+    padding: 0 0 20px;
+    text-align: center;
+    font-size: 22px;
+}
+
+.frmdangnhap p{
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+}
+
+.style{
+    width:95%;
+    margin-bottom:20px;
+    float:left;
+}
+
+#rfvTaiKhoan #rfvMatKhau{
+    float:right;
+}
+
+.frmdangnhap #taikhoan, #matkhau
+{
+    border: none;
+    border-bottom: 1px solid #006;
+    background: #fff;
+    outline: none;
+    height: 40px;
+    color: #003;
+    font-size: 16px;
+}
+.frmdangnhap #btndangnhap
+{
+    border: none;
+    outline: none;
+    height: 40px;
+	width: 130px;
+    background: #003;
+    color: #fff;
+    font-size: 18px;
+	margin-left:auto;
+	margin-right:auto;
+	display:block;
+}
+.frmdangnhap #btndangnhap:hover
+{
+    cursor: pointer;
+    background: #009;
+    color: #fff;
+}
+.frmdangnhap a{
+    text-decoration: none;
+    font-size: 16px;
+    line-height: 20px;
+    color: #000066;
+}
+
+.frmdangnhap a:hover
+{
+    color: #009;
+	font-weight:bold;
+}
+
+

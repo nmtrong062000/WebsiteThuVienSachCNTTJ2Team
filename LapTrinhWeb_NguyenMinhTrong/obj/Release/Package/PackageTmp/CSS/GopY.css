@@ -1,0 +1,59 @@
+@charset "utf-8";
+/* CSS Document */
+
+.frmgopy{
+    background: #fff;
+    color: #003;
+    top: 380px;
+    left: 720px;
+    position: absolute;
+    box-sizing: border-box;
+    padding: 60px 10px;
+	border:2px solid #003;
+	font-size:14px;
+	width:400px;
+	height:350px;
+	border-radius:50px;
+}
+
+.frmgopy #noidung
+{
+    border: none;
+    border-bottom: 1px solid #003;
+    background: #fff;
+    outline: none;
+    height: 40px;
+    color: #000;
+    font-size: 16px;
+}
+
+.frmgopy input{
+    width: 100%;
+    margin-bottom: 20px;
+	margin-left:20px;
+}
+
+.frmgopy textarea{
+    width: 100%;
+    margin-bottom: 20px;
+	margin-left:20px;
+}
+
+.frmgopy #btngui
+{
+    border: none;
+    outline: none;
+	width:100px;
+    height: 40px;
+    background: #003;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 20px;
+	margin-top:10px;
+}
+.frmgopy #btngui:hover{
+	cursor: pointer;
+    background: #009;
+    color: #fff;
+}
+

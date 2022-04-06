@@ -1,0 +1,35 @@
+﻿@charset "utf-8";
+/* CSS Document */
+
+.quydinhchung{
+	background:#fff;
+	border:2px solid #003;
+}
+
+#quydinhchung{
+	background-color:#003;
+	border-top-left-radius:2px;
+	border-top-right-radius:2px;
+	text-align:center;
+	font-size:16px;
+	font-weight:bold;
+	color:white;
+	height:25px;
+	padding-top:5px;
+}
+
+.quydinhchung>div.noidungquydinhchung{
+	font-size:16px;
+	margin-left:20px;
+	margin-top:30px;
+}
+
+.tieude{
+	font-size:18px;
+	font-weight:bold;
+}
+
+.quydinhchung>div>ul>li{
+	margin-left:50px;
+	list-style-type:circle;
+}

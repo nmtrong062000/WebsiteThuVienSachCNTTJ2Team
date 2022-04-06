@@ -1,0 +1,27 @@
+﻿
+.thongbao_tintuc{
+    width:100%;
+}
+.ct_thongbao_tintuc1 {
+    text-decoration: none;
+    font-size: 16px;
+    color: #003;
+    line-height: 1.7;
+    font-weight: 300;
+    font-family: Arial, Times, serif;
+}
+
+    .ct_thongbao_tintuc1 img {
+        width: 80px;
+        height: 65px;
+        margin-top: 5px;
+    }
+#thongbao{
+    margin-top:10px;
+}
+#tintuc {
+    margin-top: 10px;
+}
+.noidungtabs a:hover {
+    font-weight: bold;
+}

@@ -1,0 +1,107 @@
+﻿@charset "utf-8";
+/* CSS Document */
+
+aside#left{
+	width:350px;
+	display:table-cell;
+	vertical-align:top;
+	float:left;
+	border: 3px solid #003;
+	border-radius: 2px;
+}
+
+.linksach {
+    text-decoration: none;
+    color: #003;
+}
+
+.linksach1 {
+    text-decoration: none;
+    color: #6699FF;
+}
+
+    .linksach1:hover {
+        font-weight: bold;
+    }
+
+/*Khung, bo goc cho khoi div*/
+aside#left>div{
+	margin-bottom:30px;
+    padding:10px;
+}
+
+aside#left>div>div{
+	margin:20px;
+}
+
+aside#left>div>marquee>div{
+	margin:20px;
+}
+/*mau nen, bo hai goc, canh le, co chu, mau chu,...*/
+    aside#left > div > p {
+        background-color: #6699FF;
+        border-top-left-radius: 2px;
+        border-top-right-radius: 2px;
+        text-align: center;
+        font-size: 16px;
+        font-weight: bold;
+        color: #fff;
+        height: 25px;
+        padding-top: 5px;
+    }
+
+aside#left .thongbao div a{
+	font-size:16px;
+	font-weight:bold;
+}
+
+    aside#left .thongketruycap div p {
+        font-size: 16px;
+        font-weight: bold;
+        color: #003;
+    }
+aside#left>div.thongbao p{
+	clear:both;
+}
+.thongbao-tintuc{
+	color:#fff;
+	text-decoration:none;
+}
+
+
+.ct_thongbao_tintuc{
+	text-decoration:none;
+	font-size:14px;
+	font-family:Arial;
+	color:#003;
+}
+.ct_thongbao_tintuc img {
+        width: 50px;
+        height: 40px;
+        margin-top: 5px;
+}
+.ct_sach {
+    text-decoration: none;
+    font-size: 14px;
+    font-family: Arial;
+    color: #003;
+}
+.ct_sach img {
+    width: 50px;
+    height: 70px;
+    margin-top: 5px;
+}
+
+aside#left div.thongbao a:hover{
+	font-weight:bold;
+}
+aside#left div.sachdecu a:hover {
+    font-weight: bold;
+}
+
+.thongbao>p>a:hover{
+    color:#003;
+}
+.sachdecu>p>a:hover {
+    color: #003;
+}
